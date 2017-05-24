@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 /*Header CSS, class=navbar, two divs: name and links*/
@@ -19,13 +18,15 @@ header {
 	top: 0;
 	border-bottom: 1px solid #ddd;
 	z-index: 100;
+	text-align: center;
 }
 
 #name {
 	background: #4aaaa5;
 	top: 0;
 	float: left;
-	width: 25%;
+	width: 225px;
+	text-align: center;
 	height: 80px;
 	color: #fff;
 	padding: 10px;
@@ -33,6 +34,7 @@ header {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
+	padding-left: 20px;
 }
 
 #links {
@@ -42,9 +44,10 @@ header {
 	color: #777;
 	display: inline-block;
 	padding: 30px;
-	font-size: 14px;
+	font-size: 16px;
 	margin-right:20px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
 }
 
 a:link {
@@ -69,17 +72,19 @@ body {
 
 h2 {
 	font-color: #4aaaa5;
+	text-align: left;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 h3 {
 	font-color: #4aaaa5;
+	text-align: center;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 hr {
+	margin-bottom: 20px;
 	color: #ddd;
-	width: 80%;
 }
 .main-bio {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -93,6 +98,8 @@ hr {
 	border: 1px solid #ddd;
 	background: #fff;
 	margin-left: 140px;
+	padding: 20px 30px 20px 30px;
+	text-align: left;
 }
 
 #savannah{
@@ -106,18 +113,138 @@ hr {
 	width: 240px;
 	height: 180px;
 	overflow: visible;
+	position: absolute;
 	line-height: 10px;
 	margin-right: 215px;
+	margin-left: 40px;
+	text-align: center;
+	display: inline-block;
 	border: 1px solid #ddd;
-	padding: 10px;
+	padding: 30px 20px 30px 20px;
 }
 
 p {
 	color: #777;
 }
 
-footer {
+.contact {
+	width: 650px;
+	height: 600px;
+	border: 1px solid #ddd;
+	text-align: center;
+	padding: 20px 30px 40px 30px;
+	color: #4aaaa5;
+	margin-left: 90px;
+	background: #fff;
+	display: inline-block;
+	line-height: 20px;
+	float: left;
 	position: relative;
+	margin-bottom: 20px;
+}
+
+form {
+	color: #777;
+	text-align: left;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+input {
+	width:590px;
+	color: #ddd;
+	text-align: left;
+	font-size: 14px;
+	border: 1px solid #ddd;
+}
+
+#namebox {
+	height: 30px;
+}
+
+#email{
+	height: 30px;
+}
+#message {
+	height: 200px;
+	text-align: left;
+	color: #ddd;
+}
+
+#submit{
+	background: #4aaaa5;
+	color: #fff;
+	height: 40px;
+	width: 115px;
+	font-size: 14px;
+	border: 1px solid #4aaaa5;
+}
+
+.picture {
+	padding: 20px 30px 20px 30px;
+	z-index: 5;
+}
+
+#container{
+	height: 830px;
+	width: 600px;
+	border: 1px solid #ddd;
+	top: 40;
+	background: #fff;
+	color: #4aaaa5;
+	margin-left: 115px;
+	padding: 0px 30px 0px 30px;
+	display: inline-block;
+}
+.phototitle {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	z-index: 100;
+	font-size: 16px;
+	background-color: #4aaaa5;
+	color: #fff;
+	padding: 10px;
+}
+
+#melly {
+	float: left;
+	display: inline-block;
+	width: 265px;
+	height: 200px;
+}
+
+#kentucky {
+	float: left;
+	display: block;
+	width: 265px;
+	height: 200px;
+}
+
+#melly3 {
+	float: left;
+	display: block;
+	width: 265px;
+	height: 200px;
+}
+
+#michael {
+	float: left;
+	display: block;
+	width: 265px;
+	height: 200px;
+}
+
+#melly2 {
+	float: left;
+	display: block;
+}
+
+#wedding {
+	float: left;
+	display: block;
+}
+
+footer {
+	position: fixed;
+	z-index: 100;
 	left: 0;
 	bottom: 0;
 	background: #666;
@@ -125,6 +252,7 @@ footer {
 	font-size: 12px;
 	color: #fff;
 	border-top: 7px solid #4aaaa5;
+	margin-top: 40px;
 	clear: both;
 	text-align: center;
 	height: 30px;
